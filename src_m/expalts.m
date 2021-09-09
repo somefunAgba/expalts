@@ -29,10 +29,10 @@ classdef expalts
             % for increased accuracy of fast exponential approximations
             % by bit shifting and integer squaring.
             
-            %             arguments
-            %                 x {mustBeNumeric}
-            %                 mode {mustBeMember(mode,[0,1])}= 0
-            %             end
+            arguments
+                x {mustBeNumeric}
+                mode {mustBeMember(mode,[0,1])}= 0
+            end
             
             if ~isrow(x)
                 y = ones(numel(x),1);

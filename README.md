@@ -23,9 +23,8 @@ y3 = exp(x);
 **`2.1.`** **gradual: ebits**
 
 ```matlab:Code
-y2 = expalts.byones(x, 0); 
-% or 
-% y2 = expalts.byones(x,0); 
+y2 = expalts.byones(x, 0); % or 
+% y2 = expalts.byones(x); 
 ```
 
 **`2.2.`** **gradual: inbuilt exp.**
