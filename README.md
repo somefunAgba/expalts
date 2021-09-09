@@ -11,14 +11,14 @@ xsel = [-100, 0, 1, 10, 100, 500];
 x = xsel(end);
 ```
 
-**`1.`**** **`ebits`**: nat. exponentiation **by **bit-shifting and base-2 integer squaring approximation of the limit theorem**
+**`1.` `ebits`: natural exponentiation by bit-shifting and base-2 integer squaring approximation of the limit theorem**
 
 ```matlab:Code
 y1 = expalts.ebits(x);
 y3 = exp(x);
 ```
 
-**`2.`** `byones:`** gradual nat. exponentation**: - useful for balance in speed and improved accuracy, esp. in resource-constrained embedded systems, by restricting input exponentiation to small values of 1s.
+**`2.` `byones:` gradual natural exponentation**: - useful for balance in speed and improved accuracy, esp. in resource-constrained embedded systems, by restricting input exponentiation to small values of 1s.
 
 **`2.1.`** **gradual: ebits**
 
