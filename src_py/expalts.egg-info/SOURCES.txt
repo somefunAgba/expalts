@@ -1,5 +1,10 @@
 setup.py
 ../src_cpp/expalts.cpp
+../src_cpp/main.cpp
+../src_cpp/rtGetInf.cpp
+../src_cpp/rtGetNaN.cpp
+../src_cpp/rt_nonfinite.cpp
+../src_cpp/expalts.cpp
 ../src_cpp/rtGetInf.cpp
 ../src_cpp/rtGetNaN.cpp
 ../src_cpp/rt_nonfinite.cpp
