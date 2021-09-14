@@ -1,5 +1,8 @@
 setup.py
 ../src_cpp/expalts.cpp
+../src_cpp/rtGetInf.cpp
+../src_cpp/rtGetNaN.cpp
+../src_cpp/rt_nonfinite.cpp
 expalts.egg-info/PKG-INFO
 expalts.egg-info/SOURCES.txt
 expalts.egg-info/dependency_links.txt

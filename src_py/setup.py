@@ -7,10 +7,12 @@ from setuptools import setup
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 
 _version_ = "1.0.0"
+#     [str(fname) for fname in Path('../src_cpp/')
+#    .sorted(glob('expalts.cpp'))],
 
 ext_module = Pybind11Extension(
     'expalts',
-    [str(fname) for fname in Path('../src_cpp/').glob('expalts.cpp')],
+    sorted(glob("../src_cpp/*.cpp")),  # Sort source files for reproducibility
     include_dirs=['../src_cpp/'],
     extra_compile_args=['/Ox']
 )

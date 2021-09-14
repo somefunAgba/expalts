@@ -1,7 +1,7 @@
 BSD 3-Clause License
 
 EXPALTS
-2021 | v1.0 | Oluwasegun Somefun, 
+2021 | v1.1 | Oluwasegun Somefun, 
 oasomefun.futa.edu.ng, somefuno@oregonstate.edu
 All rights reserved.
 

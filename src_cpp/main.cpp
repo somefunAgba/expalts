@@ -5,7 +5,7 @@
 // File: main.cpp
 //
 // MATLAB Coder version            : 5.1
-// C/C++ source code generated on  : 31-Aug-2021 17:43:02
+// C/C++ source code revised on  : 12-Sept-2021 18:43:02
 //
 
 //***********************************************************************
@@ -64,8 +64,9 @@ int main(int, const char * const [])
     coder::array<double, 2U> y1;
     coder::array<double, 2U> y2;
     for (int id = 0; id < x.size(1); id++) {
-        y1[id] = expalts::ebits((x[id]));
-        y2[id] = expalts::byones((x[id]), 0);
+        y1[id] = expalts::bones((x[id]), 0);
+        y2[id] = expalts::bones((x[id]), 1);
+        y3[id] = expalts::bones((x[id]), 2);
     }      
     
     // stream output to console
@@ -74,7 +75,8 @@ int main(int, const char * const [])
             std::cout << "";
             std::cout << "x \t y1 \t y2"<< std::endl;
         }
-        std::cout << x[i] << "\t" << y1[i] << "\t" << y2[i] << std::endl;
+        std::cout << x[i] << "\t" << y1[i] << "\t" 
+                << y2[i] << "\t" << y3[i] << std::endl;
     }
     std::cout << std::endl;
     // terminate the application.
